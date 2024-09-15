@@ -3,8 +3,10 @@
 
   outputs = {...}: {
     templates = {
-      path = ./templates/latex;
-      description = "Simple LaTeX Flake";
+      latex = {
+        path = ./templates/latex;
+        description = "Simple LaTeX Flake";
+      };
     };
   };
 }
